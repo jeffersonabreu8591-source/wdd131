@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Album Page">
+    <meta name="author" content="Jefferson Abreu">
+
+    <title>Temple Album</title>
+
+    <!-- from google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- setep two css-->
+    <link rel="stylesheet" href="styles/temples.css"><!--conects to css -->
+<link rel="stylesheet" href="styles/temples-large.css">
+
+    <!-- step three JavaScript -->
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <h2>Temple Album</h2>
+
+    <button id="menu-button">☰</button>
+
+        <nav>
+            <a href="#">Home</a>
+        <a href="#">Old</a>
+<a href="#">aboutt</a>
+           
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h1>Temple Album</h1>
+
+    <div class="gallery">
+
+        <figure>
+            <img src="images/greater_guatemala_city_guatemala_temple_exterior_rendering.webp" alt="Temple 1" loading="lazy">
+            <figcaption>Guatemala Miraflores</figcaption> <!-- this tag helps to let a description or name for the image being used https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/figcaption -->
+        </figure>
+
+        <figure>
+            <img src="images/temple_rendering_tuguegarao_city_philippines_temple.webp" alt="Temple 2" loading="lazy">
+            <figcaption>Tuguegarao Filipinas</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/temple_rendering_austin_texas_temple.webp" alt="Temple 3" loading="lazy">
+            <figcaption>Austin Texas</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/bengaluru_india_temple.webp" alt="Temple 4" loading="lazy">
+            <figcaption>Bangalore Índia</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/temple_rendering_barcelona_spain_temple.webp" alt="Temple 5" loading="lazy">
+            <figcaption>Barcelona Espanha</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/belo_horizonte_brazil_temple_exterior_rendering.webp" alt="Temple 6" loading="lazy">
+            <figcaption>Belo Horizonte</figcaption>
+        </figure>
+
+        
+
+    </div>
+</main>
+
+<footer>
+    <p>
+        © <span id="currentyear"></span> Jefferson Abreu | Brazil
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
