@@ -87,7 +87,7 @@ const temples = [
     dedicated: "2019, March, 10",
     area: 41010,
     imageUrl:
-    "https://churchofjesuschrist.org/imgs/5ecb79953d8d11ec95e6eeeeac1ece45/full/640%2C/0/default"
+    "https://www.churchofjesuschrist.org/imgs/17e2c70d687fffedfe115197e57fa8f5d1d369bb/full/640%2C/0/default"
 },
 
 {
@@ -96,7 +96,7 @@ const temples = [
     dedicated: "2019, June, 2",
     area: 36000,
     imageUrl:
-    "https://churchofjesuschrist.org/imgs/7c81c3fa2bb811ec8ef9eeeeac1e99c1/full/640%2C/0/default"
+    "https://www.churchofjesuschrist.org/imgs/e2a28dbb2b14f5f71d79b359cf9f7b88dc480144/full/640%2C/0/default"
 },
 
 {
@@ -105,7 +105,7 @@ const temples = [
     dedicated: "1978, October, 30",
     area: 59246,
     imageUrl:
-    "https://churchofjesuschrist.org/imgs/73dd0cf22bb811ec9a6ceeeeac1ed8cb/full/640%2C/0/default"
+    "https://www.churchofjesuschrist.org/imgs/940f3e201364433a3d5d3dc14b0cacee38d41d1d/full/640%2C/0/default"
 }
 ];
 
