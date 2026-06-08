@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Jefferson Abreu">
-    <meta name="description" content="Product Review Form for WDD131">
+    <meta name="description" content="Submit a product review by rating features, installation experience, and overall satisfaction using this responsive review form.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 ```
@@ -35,7 +35,7 @@
     <div class="form-group">
         <label for="product">Product Name</label>
 
-       <select id="product" name="product">
+       <select id="product" name="product" required>
             <option value="" disabled selected>
                 Select a Product ...
             </option>
@@ -47,27 +47,27 @@
 
     <label>
         ☆
-        <input type="radio" name="rating1" value="1" required>
+        <input id="star1" type="radio" name="rating" value="1" required>
     </label>
 
     <label>
         ☆☆
-        <input type="radio" name="rating2" value="2">
+        <input id="star2" type="radio" name="rating" value="2">
     </label>
 
     <label>
         ☆☆☆
-        <input type="radio" name="rating3" value="3">
+        <input id="star3" type="radio" name="rating" value="3">
     </label>
 
     <label>
         ☆☆☆☆
-        <input type="radio" name="rating4" value="4">
+        <input id="star4" type="radio" name="rating" value="4">
     </label>
 
     <label>
         ☆☆☆☆☆
-        <input type="radio" name="rating5" value="5">
+        <input id="star5" type="radio" name="rating" value="5">
     </label>
 </fieldset>
 
@@ -87,14 +87,14 @@
     <br>
     <em>(Check all that apply)</em>
 </p>
-        <label>
-            <input
-                type="checkbox"
-                id="durability"
-                name="features"
-                value="Durability">
-            Durability
-        </label>
+        <input type="checkbox"
+       id="durability"
+       name="features"
+       value="Durability">
+
+<label for="durability">
+    Durability
+</label>
 
         <label>
             <input
@@ -109,7 +109,7 @@
             <input
                 type="checkbox"
                 id="performance"
-                name="features2"
+                name="features"
                 value="Performance">
             Performance
         </label>
@@ -118,7 +118,7 @@
             <input
                 type="checkbox"
                 id="design"
-                name="features3"
+                name="features"
                 value="Design">
             Design
         </label>
