@@ -45,30 +45,30 @@
    <fieldset class="rating">
     <legend>Overall Rating</legend>
 
-    <label>
-        ☆
-        <input id="star1" type="radio" name="rating" value="1" required>
-    </label>
+   <label for="star1">
+    <input type="radio" id="star1" name="rating" value="1" required>
+    ☆
+</label>
 
-    <label>
-        ☆☆
-        <input id="star2" type="radio" name="rating" value="2">
-    </label>
+<label for="star2">
+    <input type="radio" id="star2" name="rating" value="2" required>
+    ☆☆
+</label>
 
-    <label>
-        ☆☆☆
-        <input id="star3" type="radio" name="rating" value="3">
-    </label>
+<label for="star3">
+    <input type="radio" id="star3" name="rating" value="3" required>
+    ☆☆☆
+</label>
 
-    <label>
-        ☆☆☆☆
-        <input id="star4" type="radio" name="rating" value="4">
-    </label>
+<label for="star4">
+    <input type="radio" id="star4" name="rating" value="4" required>
+    ☆☆☆☆
+</label>
 
-    <label>
-        ☆☆☆☆☆
-        <input id="star5" type="radio" name="rating" value="5">
-    </label>
+<label for="star5">
+    <input type="radio" id="star5" name="rating" value="5" required>
+    ☆☆☆☆☆
+</label>
 </fieldset>
 
     <div class="form-group">
@@ -88,47 +88,37 @@
     <br>
     <em>(Check all that apply)</em>
 </p>
-        <input type="checkbox"
-       id="durability"
-       name="features"
-       value="Durability">
-
-<label for="durability">
+       <label for="durability">
+    <input type="checkbox"
+           id="durability"
+           name="features"
+           value="Durability">
     Durability
 </label>
 
-        <label>
-            <input
-                type="checkbox"
-                id="ease"
-                name="features"
-                value="Ease of Use">
-            Ease of Use
-        </label>
+<label for="ease">
+    <input type="checkbox"
+           id="ease"
+           name="features"
+           value="Ease of Use">
+    Ease of Use
+</label>
 
-        <label>
-            <input
-                type="checkbox"
-                id="performance"
-                name="features"
-                value="Performance">
-            Performance
-        </label>
+<label for="performance">
+    <input type="checkbox"
+           id="performance"
+           name="features"
+           value="Performance">
+    Performance
+</label>
 
-        <label>
-            <input
-                type="checkbox"
-                id="design"
-                name="features"
-                value="Design">
-            Design
-        </label>
-    </fieldset>
-
-    <div class="form-group">
-        <label for="review">
-            Written Review (Optional)
-        </label>
+<label for="design">
+    <input type="checkbox"
+           id="design"
+           name="features"
+           value="Design">
+    Design
+</label>
 
         <textarea
             id="review"
