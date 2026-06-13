@@ -1,3 +1,4 @@
+// roupas da pagina
 const outfits = [
     {
         id: 1,
@@ -19,13 +20,17 @@ const outfits = [
     }
 ];
 
+// mostra as roupas na tela
 function displayOutfits(filteredOutfits) {
 
+    // pega a galeria
     const gallery =
         document.querySelector("#outfit-gallery");
 
+    // limpa antes de colocar de novo
     gallery.innerHTML = "";
 
+    // passa por todas roupas
     filteredOutfits.forEach(outfit => {
 
         gallery.innerHTML += `
@@ -45,14 +50,17 @@ function displayOutfits(filteredOutfits) {
     });
 }
 
+// faz o filtro dos botoes
 function filterOutfits(category) {
 
+    // se clicar em all mostra tudo
     if (category === "All") {
 
         displayOutfits(outfits);
 
     } else {
 
+        // filtra so oq foi clicado
         const filtered =
             outfits.filter(
                 outfit => outfit.season === category
@@ -62,6 +70,7 @@ function filterOutfits(category) {
     }
 }
 
+// botao all
 document
     .querySelector("#all-btn")
     .addEventListener("click", () => {
@@ -69,6 +78,7 @@ document
         filterOutfits("All");
     });
 
+// botao verao
 document
     .querySelector("#summer-btn")
     .addEventListener("click", () => {
@@ -76,6 +86,7 @@ document
         filterOutfits("Summer");
     });
 
+// botao festa
 document
     .querySelector("#party-btn")
     .addEventListener("click", () => {
@@ -83,5 +94,27 @@ document
         filterOutfits("Special Events");
     });
 
+// inicia a pagina
 displayOutfits(outfits);
-scripts/getdates.js
+
+/*
+
+anotaçao
+
+filter = filtra
+
+forEach = passa por todos
+
+querySelector = pega html
+
+innerHTML = coloca html
+
+pesquisei:
+
+mdn
+w3schools
+anotaçoes da aula
+
+essa parte foi pra fazer o filtro das roupas
+
+*/
