@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1E3A5F;
+    --secondary-color: #FF6B9A;
+    --background-color: #F5F5F5;
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 120px;
+    margin: 0 auto 1rem;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.hero {
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.hero-content {
+    padding: 1.5rem;
+}
+
+.hero-content h2 {
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-decoration: none;
+    padding: .8rem 1.5rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: .9;
+}
+
+.features {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+
+.gallery {
+    display: grid;
+    gap: 1rem;
+}
+
+.gallery figure {
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.gallery figcaption {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#favorite-display {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: var(--white);
+    display: inline-block;
+    margin-top: .5rem;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+.favorite-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #FF6B9A;
+    color: white;
+    padding: .8rem;
+    font-weight: bold;
+}
+
+.favorite-btn:hover {
+    opacity: .9;
+}
+
+.outfit-card {
+    display: flex;
+    flex-direction: column;
+}
+.filter-buttons {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-buttons button {
+    border: none;
+    cursor: pointer;
+    padding: .8rem 1.2rem;
+    border-radius: 6px;
+    background-color: #1E3A5F;
+    color: white;
+    font-weight: bold;
+}
+
+.filter-buttons button:hover {
+    background-color: #FF6B9A;
+}
+form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: .8rem;
+    margin-top: .4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    background-color: #FF6B9A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    opacity: .9;
+}
+
+#welcome-message {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #1E3A5F;
+}
+.card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
